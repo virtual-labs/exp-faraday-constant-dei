@@ -38,10 +38,23 @@ P<sub>H20 column</sub>  = (density of H<sub>2</sub>O) × gravity × (height of H
 
 ## Precautions:- 
 
-The entire bare part of the wire should be inside the burette; otherwise, some of the H<sub>2</sub> generated will not be collected in the burette.
+The entire bare part of the wire should be inside the burette; otherwise, some of the H<sub>2</sub> generated will not be collected in the burette.<br>
+To calculate the volume, the top of the solution in the burette should be within the graduated region of the burette.<br>
+Electrodes should remain static during the process of electrolysis.<br>
+### Observation Table:
+<b>Parameter | <b>Observed Value
+:--|:--|
+ Current,I |0.50A
+ Initial time,<sub>1</sub> |0s
+ Final time,t<sub>2</sub> |600s
+ Time of electrolysis, t |600s
+ Volume of H<sub>2</sub> collected, V |25.0 mL = 2.5 × 10<sup>-5</sup> m<sup>3</sup>
+ Height of water column, h |120mm
+ Temperature of solution, T |27 °C = 300 K
+ Barometric pressure, P<sub>₍atm₎</su> |760 mmHg
+ Vapor pressure of water at 27 °C |27 mmHg
 
-To calculate the volume, the top of the solution in the burette should be within the graduated region of the burette.
+ ### Calculated Obervations: 
 
-Electrodes should remain static during the process of electrolysis.
 
 
