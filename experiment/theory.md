@@ -41,8 +41,8 @@ We can measure the charge on the electron in coulombs, and it is equal to 1.60 Ã
 3. Kinetic barrier and  overvoltage.<br>
 <br>
 
-a. Cathodic reactions.
+(a). Cathodic reactions.
 <br>
-b. Anodic Reactions.
+(b). Anodic Reactions.
 <br>
-c. Unexpected products because of overvoltage.
+(c). Unexpected products because of overvoltage.
