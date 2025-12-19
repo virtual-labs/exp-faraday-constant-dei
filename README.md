@@ -10,7 +10,7 @@
 
 Fill a brief description of this experiment here
 
-<b>Name of Developer | <b> Dr. Sachin Saxena.
+<b>Name of Developer | <b> Dinesh Kumar Verma.
 :--|:--|
 <b> Institute | <b> Dayalbagh Educational Institute. 
 <b> Email id|     <b> evlabdei@gmail.com  
