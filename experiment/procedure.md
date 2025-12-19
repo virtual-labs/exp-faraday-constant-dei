@@ -54,7 +54,15 @@ Electrodes should remain static during the process of electrolysis.<br>
  Barometric pressure, P<sub>₍atm₎</su> |760 mmHg
  Vapor pressure of water at 27 °C |27 mmHg
 
- ### Calculated Obervations: 
+<div align="center">
+  <img src="images/Calculation_Observations.png">
+</div>
+<div align="center">
+  <img src="images/MolesofHydrogen.png">
+</div>
+<div align="center">
+  <img src="images/Avogadros_Number.png">
+</div>
 
 
 
