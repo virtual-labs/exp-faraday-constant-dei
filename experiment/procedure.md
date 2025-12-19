@@ -58,6 +58,7 @@ P<sub>H20 column</sub>  = (density of H<sub>2</sub>O) × gravity × (height of H
 <div align="center">
   <img src="images/Avogadros_Number.png">
 </div>
+
 ## Precautions:- 
 The entire bare part of the wire should be inside the burette; otherwise, some of the H<sub>2</sub> generated will not be collected in the burette.<br>
 To calculate the volume, the top of the solution in the burette should be within the graduated region of the burette.<br>
