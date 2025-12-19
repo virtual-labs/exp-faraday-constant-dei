@@ -39,7 +39,7 @@ We can measure the charge on the electron in coulombs, and it is equal to 1.60 Ã
 1. Nature of the materials being electrolysed.<br>
 2. Types of electrodes being used.<br>
 3. Kinetic barrier and  overvoltage.<br>
-
+<br>
 
 a. Cathodic reactions.
 <br>
