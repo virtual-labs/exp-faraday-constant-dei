@@ -51,13 +51,13 @@ P<sub>H20 column</sub>  = (density of H<sub>2</sub>O) × gravity × (height of H
  Barometric pressure, P<sub>₍atm₎</su> |760 mmHg
  Vapor pressure of water at 27 °C |27 mmHg
 
-<div align="center">
+<div align="left">
   <img src="images/Calculation_Observations.png">
 </div>
-<div align="center">
+<div align="left">
   <img src="images/MolesofHydrogen.png">
 </div>
-<div align="center">
+<div align="left">
   <img src="images/Avogadros_Number.png">
 </div>
 
