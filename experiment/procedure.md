@@ -41,10 +41,10 @@ P<sub>H20 column</sub>  = (density of H<sub>2</sub>O) × gravity × (height of H
 ### Observation Table:
 <b>Parameter | <b>Observed Value
 :--|:--|
- Current,I |0.50A
- Initial time,<sub>1</sub> |0s
- Final time,t<sub>2</sub> |600s
- Time of electrolysis, t |600s
+ Current,I |0.50 A
+ Initial time,t<sub>1</sub> |0 s
+ Final time,t<sub>2</sub> |600 s
+ Time of electrolysis, t |600 s
  Volume of H<sub>2</sub> collected, V |25.0 mL = 2.5 × 10<sup>-5</sup> m<sup>3</sup>
  Height of water column, h |120mm
  Temperature of solution, T |27 °C = 300 K
