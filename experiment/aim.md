@@ -1,1 +1,1 @@
-Determination Faraday constant and Avogadro No. through electrolysis.
+Determination Faraday Constant and Avogadro No. through electrolysis.
