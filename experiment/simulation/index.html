@@ -42,7 +42,7 @@ $(document).ready(function(){
     	var cuso41value = $(this).val(); 
 		
 		$(".followstep2").removeClass("active");
-		$(".followstep3").addClass("active");
+		$(".follow").addClass("active");
         $("#step1").hide();
         $("#step2").hide();
 		 $("#step3").show();
@@ -53,7 +53,7 @@ $(document).ready(function(){
 		 $('#voltametern').attr('disabled', 'disabled');
 		 $('#cuso41nao').attr('disabled', 'disabled');
 		 
-		$("#step3img").attr("src","images/step1.gif");
+		$("#step3img").attr("src","images/step1f.gif");
 		setTimeout(function() {
 		
     $("#cu1").show();
@@ -322,12 +322,23 @@ $(document).ready(function(){
 		<div  class="des" id="des">
 		<div  style="float: left;text-align:left;">
 		 <table cellpadding="2" cellspacing="2" border="2" id="firsttbl" style="display:none;">
-		     <tr><td>Voltage</td><td>4V</td></tr>
-			 <tr><td>Time</td><td>6 mins(360s)</td></tr>
-			 <tr><td>Temperature</td><td>26.7°C</td></tr>
-			 <tr><td>Intial Volume</td><td>47.6 cm3</td></tr>
-			 <tr><td>Final Volume</td><td>26.8 cm3</td></tr>
+		     <tr><td>Parameter</td><td>Observed Value</td></tr>
+			 <tr><td>Current,I</td><td> 0.50 A </td></tr>
+			 <tr><td>Initial time,t<sub>1</sub></td><td>0 s </td></tr>
+			 <tr><td> Final time,t<sub>2</sub> </td><td>600 s</td></tr>
+			 <tr><td>Time of electrolysis, t </td><td>600 s </td></tr>			 
+			<tr><td>Volume of H<sub>2</sub> collected, V</td><td> 25.0 mL = 2.5 × 10<sup>-5</sup> m<sup>3</sup> </td></tr>
+			 <tr><td> Height of water column, h</td><td> 120 mm </td></tr>
+			 <tr><td>  Temperature of solution, T </td><td> 27 °C = 300 K </td></tr>
+			 <tr><td> Barometric pressure, P<sub>₍atm₎</su> </td><td> 760 mmHg </td></tr>
+			  <tr><td>  Vapor pressure of water at 27 °C</td><td> 27 mmHg </td></tr>
+
+
+
+
+			 
 		</table>
+			<!--
 		<table  cellpadding="2" cellspacing="2" border="2" id="secondtbl" style="display:none;width: 206px;margin-top: 10px;">
 		     <tr><th>Interval</th><th>Amperes</th></tr>
 			 <tr><td>1</td><td>0.340</td></tr>
@@ -345,12 +356,12 @@ $(document).ready(function(){
 			 <tr><td>13</td><td>0.393</td></tr>
 			 <tr><td>14</td><td>0.384</td></tr>
 			 <tr><td>15</td><td>0.388</td></tr>
-		</table>
+		</table> -->
 		</div>
 		    <!-- Begin step1-->
 			 <div id="step1">
 	
-                 <a href="javascript:void(0);" class="blink" id="cuso41" style="display:none;">Step1: Prepare the <strong>H<sub>2</sub>SO<sub>4</sub></strong> Solution.</a>
+                 <a href="javascript:void(0);" class="blink" id="cuso41" style="display:none;">Step 1: Prepare the <strong>H<sub>2</sub>SO<sub>4</sub></strong> Solution.</a>
 				
 				<div id="rightsidebarn" class="rightsidebarn">
 						<a href="javascript:void(0);" class="max" >Maximize The Window</a>
@@ -365,7 +376,7 @@ $(document).ready(function(){
 			 <!-- Begin step2-->
 			 <div id="step2" style="display:none;">
 			
-				<a href="javascript:void(0);" id="saltbridage" style="display:none;" class="blink">Step3: Insert the in Burette in Beaker. </a>
+				<a href="javascript:void(0);" id="saltbridage" style="display:none;" class="blink">Step 3: Insert the Burette in Beaker. </a>
 
 			 
 				<p>
@@ -375,7 +386,7 @@ $(document).ready(function(){
 			 <!-- End step2-->
 			  <!-- Begin step3-->
 			 <div id="step3" style="display:none;">
-			   <a href="javascript:void(0);" class="blink" id="cu1" style="display:none;">Step2: Pour the 3M- <strong>H<sub>2</sub>SO<sub>4</sub></strong> Solution in Burette.</a>
+			   <a href="javascript:void(0);" class="blink" id="cu1" style="display:none;">Step 2: Pour the 3M- <strong>H<sub>2</sub>SO<sub>4</sub></strong> Solution in Burette.</a>
 				
 				<p>
 				<img src="" id="step3img" style="width:640px;height:480px;">
@@ -385,7 +396,7 @@ $(document).ready(function(){
 			  <!-- Begin step4-->
 			 <div id="step4" style="display:none;">
 			
-				<a href="javascript:void(0);" id="rod" class="blink" style="display:none;">Step4: Connect the Cathode(-) wire of Ammeter.</a>
+				<a href="javascript:void(0);" id="rod" class="blink" style="display:none;">Step 4: Connect the Cathode(-) wire of Ammeter.</a>
 				<p>
 				<img src=""  id="step4img" style="width:640px;height:480px;">
 				</p>
@@ -394,7 +405,7 @@ $(document).ready(function(){
 			  <!-- Begin step5-->
 			 <div id="step5" style="display:none;">
 			
-				<a href="javascript:void(0);" id="voltameter" class="blink" style="display:none;">Step5: Connect the Anode(+) wire of Ammeter.</a>
+				<a href="javascript:void(0);" id="voltameter" class="blink" style="display:none;">Step 5: Connect the Anode(+) wire of Ammeter.</a>
 				<p>
 				<img src=""  id="step5img" style="width:640px;height:480px;">
 				</p>
@@ -403,7 +414,7 @@ $(document).ready(function(){
 			   <!-- Begin step6-->
 			 <div id="step6" style="display:none;">
 			
-				<a href="javascript:void(0);" id="onvoltameter" class="blink" style="display:none;">Step6: Please Switch On.</a>
+				<a href="javascript:void(0);" id="onvoltameter" class="blink" style="display:none;">Step 6: Please Switch On.</a>
 				<p>
 				<span id="off"></span><img src=""  id="step6img" style="width:640px;height:480px;">
 				</p>
@@ -412,7 +423,7 @@ $(document).ready(function(){
 			   <!-- Begin step7-->
 			 <div id="step7" style="display:none;">
 			
-			    <a href="javascript:void(0);" id="onvoltameter1" class="blink">Working....</a> <span id="success" style="display:none;" class="blink">Step7: Procedure for part A add Na<sub>2</sub>S solution in Beaker-B</span>
+			    <a href="javascript:void(0);" id="onvoltameter1" class="blink">Working....</a> <span id="success" style="display:none;" class="blink">Step 7: Procedure for part A add Na<sub>2</sub>S solution in Beaker-B</span>
 				<p>
 				<span id="rank"></span>
 				<img src=""  id="step7img" style="width:640px;height:480px;">
